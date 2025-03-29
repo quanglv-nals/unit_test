@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: laravel_php
+    restart: unless-stopped
+    working_dir: /var/www/app
+    volumes:
+      - .:/var/www/app
+    ports:
+      - "9000:9000"
