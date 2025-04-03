@@ -1,0 +1,26 @@
+# Ignore coverage reports
+coverage-report/
+
+# Ignore IDE and editor-specific files
+.idea/
+.vscode/
+
+# Ignore vendor directory
+vendor/
+
+# Ignore environment files
+.env
+
+# Ignore debug or temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore compiled files
+*.cache
+*.phpunit.result.cache
+
+# Ignore CSV files
+*.csv
+
+
